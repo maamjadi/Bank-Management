@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4D8CA2771CAA78300095672F"
-               BuildableName = "bank managment system"
-               BlueprintName = "bank managment system"
-               ReferencedContainer = "container:bank managment system.xcodeproj">
+               BuildableName = "bank management system"
+               BlueprintName = "bank management system"
+               ReferencedContainer = "container:bank management system.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D8CA2771CAA78300095672F"
-            BuildableName = "bank managment system"
-            BlueprintName = "bank managment system"
-            ReferencedContainer = "container:bank managment system.xcodeproj">
+            BuildableName = "bank management system"
+            BlueprintName = "bank management system"
+            ReferencedContainer = "container:bank management system.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D8CA2771CAA78300095672F"
-            BuildableName = "bank managment system"
-            BlueprintName = "bank managment system"
-            ReferencedContainer = "container:bank managment system.xcodeproj">
+            BuildableName = "bank management system"
+            BlueprintName = "bank management system"
+            ReferencedContainer = "container:bank management system.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4D8CA2771CAA78300095672F"
-            BuildableName = "bank managment system"
-            BlueprintName = "bank managment system"
-            ReferencedContainer = "container:bank managment system.xcodeproj">
+            BuildableName = "bank management system"
+            BlueprintName = "bank management system"
+            ReferencedContainer = "container:bank management system.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

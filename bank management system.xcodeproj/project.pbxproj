@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4D8CA27C1CAA78300095672F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA27B1CAA78300095672F /* main.cpp */; };
+		4D8CA2841CAA785C0095672F /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CA2821CAA785C0095672F /* log.cpp */; };
+		4D9289FC1CD739CF00D23C26 /* account_fn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D9289FB1CD739CF00D23C26 /* account_fn.cpp */; };
+		4DE11B441CAA9E1300689A6E /* account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE11B421CAA9E1300689A6E /* account.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4D8CA2781CAA78300095672F /* bank managment system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bank managment system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CA2781CAA78300095672F /* bank management system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bank management system"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8CA27B1CAA78300095672F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4D8CA2821CAA785C0095672F /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		4D8CA2831CAA785C0095672F /* log.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = log.hpp; sourceTree = "<group>"; };
+		4D9289FB1CD739CF00D23C26 /* account_fn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = account_fn.cpp; sourceTree = "<group>"; };
+		4DE11B421CAA9E1300689A6E /* account.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
+		4DE11B431CAA9E1300689A6E /* account.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = account.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +49,7 @@
 		4D8CA26F1CAA78300095672F = {
 			isa = PBXGroup;
 			children = (
-				4D8CA27A1CAA78300095672F /* bank managment system */,
+				4D8CA27A1CAA78300095672F /* bank management system */,
 				4D8CA2791CAA78300095672F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +57,31 @@
 		4D8CA2791CAA78300095672F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D8CA2781CAA78300095672F /* bank managment system */,
+				4D8CA2781CAA78300095672F /* bank management system */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D8CA27A1CAA78300095672F /* bank managment system */ = {
+		4D8CA27A1CAA78300095672F /* bank management system */ = {
 			isa = PBXGroup;
 			children = (
 				4D8CA27B1CAA78300095672F /* main.cpp */,
+				4D8CA2831CAA785C0095672F /* log.hpp */,
+				4D8CA2821CAA785C0095672F /* log.cpp */,
+				4DE11B431CAA9E1300689A6E /* account.hpp */,
+				4DE11B421CAA9E1300689A6E /* account.cpp */,
+				4D9289FB1CD739CF00D23C26 /* account_fn.cpp */,
 			);
+			name = "bank management system";
 			path = "bank managment system";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D8CA2771CAA78300095672F /* bank managment system */ = {
+		4D8CA2771CAA78300095672F /* bank management system */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D8CA27F1CAA78300095672F /* Build configuration list for PBXNativeTarget "bank managment system" */;
+			buildConfigurationList = 4D8CA27F1CAA78300095672F /* Build configuration list for PBXNativeTarget "bank management system" */;
 			buildPhases = (
 				4D8CA2741CAA78300095672F /* Sources */,
 				4D8CA2751CAA78300095672F /* Frameworks */,
@@ -77,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "bank managment system";
+			name = "bank management system";
 			productName = "bank managment system";
-			productReference = 4D8CA2781CAA78300095672F /* bank managment system */;
+			productReference = 4D8CA2781CAA78300095672F /* bank management system */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4D8CA2731CAA78300095672F /* Build configuration list for PBXProject "bank managment system" */;
+			buildConfigurationList = 4D8CA2731CAA78300095672F /* Build configuration list for PBXProject "bank management system" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D8CA2771CAA78300095672F /* bank managment system */,
+				4D8CA2771CAA78300095672F /* bank management system */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8CA27C1CAA78300095672F /* main.cpp in Sources */,
+				4DE11B441CAA9E1300689A6E /* account.cpp in Sources */,
+				4D8CA2841CAA785C0095672F /* log.cpp in Sources */,
+				4D9289FC1CD739CF00D23C26 /* account_fn.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,21 +226,21 @@
 		4D8CA2801CAA78300095672F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bank management system";
 			};
 			name = Debug;
 		};
 		4D8CA2811CAA78300095672F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "bank management system";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D8CA2731CAA78300095672F /* Build configuration list for PBXProject "bank managment system" */ = {
+		4D8CA2731CAA78300095672F /* Build configuration list for PBXProject "bank management system" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8CA27D1CAA78300095672F /* Debug */,
@@ -232,13 +249,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D8CA27F1CAA78300095672F /* Build configuration list for PBXNativeTarget "bank managment system" */ = {
+		4D8CA27F1CAA78300095672F /* Build configuration list for PBXNativeTarget "bank management system" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4D8CA2801CAA78300095672F /* Debug */,
 				4D8CA2811CAA78300095672F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
